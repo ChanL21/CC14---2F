@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Verse</title>
+</head>
+<body>
+    <h1>Anime Verse</h1>
+    <div>
+        <img src = "https://i.etsystatic.com/39194807/r/il/f1cbd2/4500544108/il_570xN.4500544108_n4ia.jpg" >
+    </div>
+    <div>
+        <video >
+            <source src="https://www.youtube.com/watch?v=hLLpNm88fbI" type="video/mp4"> 
+        </video>
+    </div>
+     <p>Anime - is hand-drawn and computer-generated animation originating from Japan. Outside Japan and in English, anime refers specifically to animation produced in Japan. However, in Japan and in Japanese, anime describes all animated works, regardless of style or origin. Many works of animation with a similar style to Japanese animation are also produced outside Japan.</p><br>
+    <p> Anime is a diverse medium with distinctive production methods that have adapted in response to emergent technologies. It combines graphic art, characterization, cinematography, and other forms of imaginative and individualistic techniques.Compared to Western animation, anime production generally focuses less on movement, and more on the detail of settings and use of "camera effects", such as panning, zooming, and angle shots. Diverse art styles are used, and character proportions and features can be quite varied, with a common characteristic feature being large and emotive eyes.
+    </p>
+</body>
+</html>
