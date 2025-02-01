@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom: 10px;
+    }
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-84V_ZM_W3X7KK6QhnLkyeftSHkPSfoh5iw&s');
+    color: #333;
+    font-size:25px;
+}
+
+header {
+    background:#35424a;
+    color: #0a0909;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 25px;
+}
+img{
+    width:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav a {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: armenian;
+    font-style: normal;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px rgba(13, 58, 105, 0.1);
+    font-size: 20px;
+    background-color:lghtgray;
+}
+
+section h2  {
+    padding: 10px 0;
+    Text-align:center;
+    background: #35424a;
+    color: #ffffff;
+    border-radius: 25px;
+
+}
+section p{
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #2c2b2b;
+    color: #e6dada;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="about">About</a>
+            <a href="projects">Projects</a>
+            <a href="contacts">Contacts</a>
+        </nav>
+    </header>
+    <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! <br><img src='https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/435373107_1122944585496855_2232979834780608123_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHCdYZcr258ZNVwSwP-S-Nj1zm_s59RhCnXOb-zn1GEKcQBEjg_7TU3S5zUrPKooqTZn97YoU-rzzhG8oue7WKA&_nc_ohc=bSlb_v6Qj-0Q7kNvgE66o4B&_nc_oc=AdjxaGpYFr8bxFVjLK0IZigqbjAvi8YgqbKUuA2S_fi8683eBO1tHQrvGF42WtBAhVI&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=ADo0Cf4--LTY_lmbdlTQFt0&oh=00_AYBaTcX4UGMgbZJzI2GAKVn9gowt-K7nnoicYkngWaPgqw&oe=67A3E41D'></p>
+            <p>I am Lloyd Kamora studying BSIT at University of Cordilleras </p>
+            <p><i>"Maybe nothing in this life happens by accident. As everything happens for a reason, our destiny slowly takes form"</i></p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Number Palindrome</h3>
+            <p1>A palindromic number is a number that remains the same when its digits are reversed. <br> <a href="k1">View Project</a></p1>
+                <section id="k1">
+                    <?php include 'Palindrome.php'?>
+                </section>
+        </div>
+        <div class="project">
+            <h3>Sample Landing Page</h3>
+            <p2>Sample Landing Page of an Website.<br> <a href="k2">View Project</a></p2>
+            <section id="k2">
+                <?php include 'XLandingPage.php'?>
+            </section>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email at <a href="fujikazi@gmail.com">Fujikazi@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
